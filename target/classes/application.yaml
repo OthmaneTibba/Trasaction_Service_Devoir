@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://transactionsdb.mysql.database.azure.com:3306/transaction_db?createDatabaseIfNotExist=true
+    username: transactions_db
+    password: y3Vw7Kj.TYuau62
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+server:
+  port: 8089
+
